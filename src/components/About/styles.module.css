@@ -1,0 +1,23 @@
+.about {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px;
+    border-style: groove;
+    height: 600px;
+    margin: 20px;
+    width: 80;
+
+}
+
+.cv
+{
+    border-radius: 20px;
+    border: 2px;
+    border-style: groove;
+    height: 596px;
+    width: 100%;
+}
+

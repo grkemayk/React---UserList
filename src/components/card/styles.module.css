@@ -1,0 +1,13 @@
+.card {
+    border-radius: 10px;
+    background-color: rgb(238, 233, 227);
+    border-width: 2px;
+    border-style: solid;
+    border-color:rgb(47, 165, 57);
+    color: rgb(1, 22, 22)!important;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+

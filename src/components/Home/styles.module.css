@@ -1,0 +1,55 @@
+.alignCenter
+{
+    text-align: center;
+}
+.home
+{   
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px;
+    border-style: groove;
+    height: 600px;
+    margin: 20px;
+}
+.searchDiv
+{
+
+}
+.searchButton
+{
+    border-radius: 10px;
+    margin : 10px;
+}
+.searchInput
+{
+    width: 300px;
+}
+
+.width
+{
+    width: 100%;
+}
+
+.center 
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display: block;
+    justify-content: space-around;
+}
+
+.formGroup
+{
+    display: block;
+    text-align: center;
+    
+}
+.submitButton
+{
+    width: 35%;
+    height: 20%;
+}
