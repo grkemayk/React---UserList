@@ -8,11 +8,13 @@ import ThemeButton from "./components/ThemeButton";
 import "./App.css";
 import { NavLink } from "react-router-dom";
 import PageNotFound from "./components/404";
-import { ThemeProvider, useTheme } from "./context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeContext";
+import { UsersProvider } from "./context/Users";
 
 function App() {
   return (
     <ThemeProvider>
+      <UsersProvider>
       <nav className="navbar">
         <ul className="navbar-nav mr-auto list-group-horizontal">
           <li
@@ -51,6 +53,7 @@ function App() {
         <Route path="/users/:userId" element={<User />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      </UsersProvider>
     </ThemeProvider>
   );
 }

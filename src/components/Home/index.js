@@ -60,11 +60,9 @@ export default function Home() {
             <button type="submit" className={"btn btn-primary "+styles.submitButton}>
             Search
           </button>
-          {warning && <div className="alert alert-danger"><strong>Danger!</strong> Wrong user name !</div>}
-          {getUser && <DetailCard id={getUser.id} name={getUser.name} surname={getUser.surname} age={getUser.age} job={getUser.job}/> }
-
+          {warning && <div className="alert alert-danger" styles={"margin: 10px;"}><strong>Danger!</strong> Wrong user name !</div>}
+          {getUser && <DetailCard id={getUser.id} name={getUser.name} surname={getUser.surname} age={getUser.age} job={getUser.job} setUser={setGetUser}/> }
           </div>
-
         </form>
 
       </div>

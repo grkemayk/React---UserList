@@ -25,9 +25,6 @@ export default function User() {
     <div className={styles.alignCenter}>
        <DetailCard id={users.id} name={users.name} surname={users.surname} age={users.age} job={users.job}></DetailCard>
       <br></br>
-      <nav className={styles.home}>
-        <Link to="/">Home</Link>
-      </nav>
     </div>
   );
 }
