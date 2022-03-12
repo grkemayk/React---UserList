@@ -12,7 +12,7 @@ export const ThemeProvider = ({children}) => {
     setTheme,
   }
 
-  return(<ThemeContext.Provider value={values}>{children}</ThemeContext.Provider>)
+  return(<ThemeContext.Provider value={values}>{children}</ThemeContext.Provider>)//Ilgili taglerin arasına gelen ifadeleri contexti import edebilir.
 }
 
 export const useTheme = () => useContext(ThemeContext)

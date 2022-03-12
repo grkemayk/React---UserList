@@ -14,7 +14,7 @@ const MyModal = ({id,name,surname,age,job}) => {
   const editUser=(user)=>
   {
       axios.patch("http://localhost:3000/posts/"+user.id, user).then((res) => {  
-      setUsers(users.map(element => element.id === user.id ? {...user} : element));
+      setUsers(users.map(element => element.id === user.id ? {...user} : element));// sonuc = koşul ? deger1 : deger2 => koşul değerlendirildikten sonra eğer doğru döner ise deger1 yanlış döner ise deger2 sonuç değişkenine atanır
       toggle();
     });
   }

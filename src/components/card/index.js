@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useState} from "react";
 import MyModal from "../card/Modal";
 
-function Card({id, name, surname, age, job }) {
+function Card({avatar, id, name, surname, age, job }) {
   const [show, setShow] = useState(false);  
   return (
     <div className={ styles.card }>
@@ -14,6 +14,7 @@ function Card({id, name, surname, age, job }) {
           <MyModal id={id} name={name} surname={surname} age={age} job={job}/>
         </div>
         <div>
+          <img className={styles.img} src={avatar} width="100" height="100"></img>
           <h6 className="card-title"><strong>NAME: </strong>{name}</h6>
           <h6 className="card-text"><strong>LAST NAME: </strong>{surname}</h6>
           <button className="btn btn-primary">

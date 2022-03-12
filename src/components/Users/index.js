@@ -34,7 +34,8 @@ const Users = () => {
         <div className={styles.card}>
           {
           users.map((data) => (
-            <Card key={data.id} id={data.id} name={data.name} surname={data.surname} age={data.age} job={data.job}></Card>      
+            <Card className={styles.opacityNone} key={data.id} id={data.id} name={data.name} surname={data.surname} age={data.age} job={data.job}
+            avatar ={data.avatar}></Card>      
           ))
           }
         </div>

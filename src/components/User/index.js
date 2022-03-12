@@ -23,7 +23,7 @@ export default function User() {
   }
   return (
     <div className={styles.alignCenter}>
-       <DetailCard id={users.id} name={users.name} surname={users.surname} age={users.age} job={users.job}></DetailCard>
+       <DetailCard id={users.id} name={users.name} surname={users.surname} age={users.age} job={users.job} avatar={users.avatar}></DetailCard>
       <br></br>
     </div>
   );

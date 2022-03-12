@@ -1,8 +1,14 @@
+body{
+  background-color: aqua;
+  background-image: url("https://wallpapershome.com/images/pages/pic_h/16848.jpg");  
+background-size: 100%;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+
 }
 
 li {
@@ -28,4 +34,5 @@ li a {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(54, 49, 49);
+  opacity: 0.7;
 }

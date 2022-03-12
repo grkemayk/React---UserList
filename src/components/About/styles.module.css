@@ -6,10 +6,10 @@
     border-radius: 20px;
     border: 2px;
     border-style: groove;
-    height: 600px;
+    height: 650px;
     margin: 20px;
     width: 80;
-
+    opacity: 0.9;
 }
 
 .cv
@@ -17,7 +17,7 @@
     border-radius: 20px;
     border: 2px;
     border-style: groove;
-    height: 596px;
+    height: 646px;
     width: 100%;
 }
 

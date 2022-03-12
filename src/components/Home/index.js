@@ -61,7 +61,7 @@ export default function Home() {
             Search
           </button>
           {warning && <div className="alert alert-danger" styles={"margin: 10px;"}><strong>Danger!</strong> Wrong user name !</div>}
-          {getUser && <DetailCard id={getUser.id} name={getUser.name} surname={getUser.surname} age={getUser.age} job={getUser.job} setUser={setGetUser}/> }
+          {getUser && <DetailCard id={getUser.id} name={getUser.name} surname={getUser.surname} age={getUser.age} job={getUser.job} avatar={getUser.avatar} setUser={setGetUser}/> }
           </div>
         </form>
 

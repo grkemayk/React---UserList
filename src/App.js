@@ -12,6 +12,8 @@ import { ThemeProvider } from "./context/ThemeContext";
 import { UsersProvider } from "./context/Users";
 
 function App() {
+
+  const theme = localStorage.getItem("theme");
   return (
     <ThemeProvider>
       <UsersProvider>
@@ -42,7 +44,7 @@ function App() {
           </li>
         </ul>
         <>
-          <ThemeButton />
+          <ThemeButton themeCondition={theme}/>
         </>
       </nav>
 
